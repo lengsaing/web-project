@@ -62,12 +62,16 @@ a#toTop{
 	margin:2em 0;
 	text-align:left;
 }
+
+body {
+  background-color: #201b3a;
+}
 /*-- header_top --*/
 .header{
   width: 100%;
   position: fixed;
   z-index: 3;
-	background: #330066;
+	background: #080325;
 	padding: 0.1em;
 }
 .headr-left{
@@ -162,8 +166,8 @@ background-position:-180px -9px;
 }
 
 .logo img{
-	width: 5em;
-  height: 5em;
+  width: 23%;
+  height: 23%;
 }
 .top-menu{
   padding: 2.3%;
@@ -197,17 +201,17 @@ color:#fff !important;
 }
 /*--- slider-css --*/
 .banner1{
-	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+	background:url(../images/game1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:680px;
 }
 .banner2{
-	background:url(../images/bnr2.jpg) no-repeat 0px 0px;
+	background:url(../images/game2.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:680px;
 }
 .banner3{
-	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+	background:url(../images/game3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:680px;
 }
@@ -329,6 +333,9 @@ ul.callbacks_tabs.callbacks1_tabs {
   margin: 0 5%;
 }
 .content{
+  background-color: #080325;
+  width: 90%;
+  margin: auto;
 	padding:4em 0;
  }
 .top-games h3,.latest-games h3{
@@ -358,6 +365,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
  /*-- latest --*/
 .latest{
+  background-color: #080325;
+  width: 90%;
+  margin: auto;
 	padding-bottom:4em;
 }
  .new-trailers{
